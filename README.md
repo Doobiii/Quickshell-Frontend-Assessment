@@ -35,27 +35,43 @@ The Kanban Board Web Application is a dynamic and user-friendly tool designed to
     npm start
     ```
 
-Project Structure
-src/App.js: Main application component that manages state, handles data fetching, and renders the Kanban board.
-src/Components/Navbar.js: Navbar component for task grouping and sorting controls.
-src/Components/Card.js: Card component representing individual tasks.
-src/UI/Navbar.css: Custom CSS for styling the Navbar component.
-API Integration
-The application fetches task and user data from the following API endpoint:
+## Visit the Application
 
+You can view the live Kanban Board application here:  
+**[Kanban Board Application](https://kanbanapp-lilac.vercel.app/)**
+
+## Project Structure
+
+-   src/App.js: Main application component that manages state, handles data fetching, and renders the Kanban board.
+-   src/Components/Navbar.js: Navbar component for task grouping and sorting controls.
+-   src/Components/Card.js: Card component representing individual tasks.
+-   src/UI/Navbar.css: Custom CSS for styling the Navbar component.
+
+## API Integration
+
+-   The application fetches task and user data from the following API endpoint:
+
+```bash
 https://api.quicksell.co/v1/internal/frontend-assignment
-Contributing
-Contributions are welcome! Please follow the standard GitHub workflow for making contributions:
+```
 
-Fork the repository
-Create a new branch (git checkout -b feature/your-feature)
-Make your changes
-Commit your changes (git commit -am 'Add new feature')
-Push to the branch (git push origin feature/your-feature)
-Create a new Pull Request
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
+## Contributing
 
-Acknowledgements
-React documentation for guidance on component-based architecture.
-Axios documentation for details on making API requests.
+-   Contributions are welcome! Please follow the standard GitHub workflow for making contributions:
+
+## Fork the repository
+
+-   Create a new branch (git checkout -b feature/your-feature)
+-   Make your changes
+-   Commit your changes (git commit -am 'Add new feature')
+-   Push to the branch (git push origin feature/your-feature)
+-   Create a new Pull Request
+
+## License
+
+-   This project is licensed under the MIT License. See the LICENSE file for details.
+
+## Acknowledgements
+
+-   React documentation for guidance on component-based architecture.
+-   Axios documentation for details on making API requests.
