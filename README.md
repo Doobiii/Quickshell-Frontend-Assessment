@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# Kanban Board Web Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+The Kanban Board Web Application is a dynamic and user-friendly tool designed to help teams and individuals manage tasks and projects efficiently. This application provides an interactive Kanban board with functionalities to group and sort tasks based on different criteria, offering a flexible and visual approach to task management.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+-   **Interactive Kanban Board**: Visualize tasks in a Kanban board layout with columns representing different stages of progress.
+-   **Dynamic Task Grouping**: Group tasks based on criteria such as status, user, or priority, organizing tasks according to specific needs.
+-   **Task Sorting**: Sort tasks by priority or title, allowing users to view tasks in the order that best suits their workflow.
+-   **Responsive Design**: Ensures a smooth user experience on both desktop and mobile devices.
+-   **Data Persistence**: User preferences for grouping and sorting are saved in `localStorage`, retaining settings across sessions.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+-   **React**: A JavaScript library for building user interfaces, used for developing the component-based architecture of the application.
+-   **Axios**: A promise-based HTTP client for making API requests, used to fetch data from the backend.
+-   **CSS**: Custom styling using CSS for creating a visually appealing and responsive layout.
+-   **React Icons**: For integrating icons into the application to enhance the user interface.
 
-### `npm test`
+## How to Run
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Clone the Repository**
+    ```bash
+    git clone https://github.com/Doobiii/Quickshell-Frontend-Assessment.git
+    cd kanban-board
+    ```
+2. **Install Dependencies**
+    ```bash
+    git install
+    ```
+3. **Start the Development Server**
+    ```bash
+    npm start
+    ```
 
-### `npm run build`
+Project Structure
+src/App.js: Main application component that manages state, handles data fetching, and renders the Kanban board.
+src/Components/Navbar.js: Navbar component for task grouping and sorting controls.
+src/Components/Card.js: Card component representing individual tasks.
+src/UI/Navbar.css: Custom CSS for styling the Navbar component.
+API Integration
+The application fetches task and user data from the following API endpoint:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+https://api.quicksell.co/v1/internal/frontend-assignment
+Contributing
+Contributions are welcome! Please follow the standard GitHub workflow for making contributions:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Fork the repository
+Create a new branch (git checkout -b feature/your-feature)
+Make your changes
+Commit your changes (git commit -am 'Add new feature')
+Push to the branch (git push origin feature/your-feature)
+Create a new Pull Request
+License
+This project is licensed under the MIT License. See the LICENSE file for details.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Acknowledgements
+React documentation for guidance on component-based architecture.
+Axios documentation for details on making API requests.

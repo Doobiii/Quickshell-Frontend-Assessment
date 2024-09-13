@@ -1,0 +1,94 @@
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    padding: 16px;
+    margin: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.card-id {
+    font-size: 14px;
+    color: #666;
+}
+
+.user-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+}
+
+.user-initials {
+    z-index: 1;
+}
+
+.status-indicator {
+    position: absolute;
+    bottom: -2px; /* Adjusted for better visual fit */
+    right: -2px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+
+.status-indicator.available {
+    background-color: #28a745; /* Using Bootstrap's green for consistency */
+}
+
+.status-indicator.not-available {
+    background-color: #dc3545; /* Using Bootstrap's red for consistency */
+}
+
+.card-info {
+    margin-bottom: 8px;
+}
+
+.status-icon {
+    font-size: 18px;
+}
+
+.card-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-icon {
+    margin-right: 8px;
+}
+
+.card-tags {
+    display: flex;
+    align-items: center;
+}
+
+.card-tag {
+    margin-left: 4px;
+    font-size: 14px;
+    color: #666; /* Slightly lighter to differentiate from title */
+}
+
+.tag-icon {
+    color: #ccc; /* Light gray for the circle icon */
+}
